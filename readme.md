@@ -23,7 +23,7 @@ A desktop application for managing hotel operations built with Python and Tkinte
 2. Installation:
     ```bash
     # Clone repository
-    git clone https://github.com/yourusername/hotel-management.git
+    git clone https://github.com/devendra1007/Hotel.git
     cd hotel-management
 
     # Create virtual environment (optional)
@@ -38,7 +38,7 @@ A desktop application for managing hotel operations built with Python and Tkinte
     mysql -u root -p < database/setup.sql
 
     # Run application
-    python src/main.py
+    python main.py
     ```
 
 
