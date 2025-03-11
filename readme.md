@@ -24,7 +24,7 @@ A desktop application for managing hotel operations built with Python and Tkinte
     ```bash
     # Clone repository
     git clone https://github.com/devendra1007/Hotel.git
-    cd hotel-management
+    cd Hotel
 
     # Create virtual environment (optional)
     python -m venv venv
