@@ -17,13 +17,30 @@ A desktop application for managing hotel operations built with Python and Tkinte
 
 ## ⚙️ Setup
 1. Prerequisites:
-   - Python 3.8+
-   - MySQL Database
+    - Python 3.8+
+    - MySQL Database
 
 2. Installation:
-   - Clone the repository
-   - Install dependencies
-   - Run SQL script: `database/setup.sql`
+    ```bash
+    # Clone repository
+    git clone https://github.com/yourusername/hotel-management.git
+    cd hotel-management
+
+    # Create virtual environment (optional)
+    python -m venv venv
+    source venv/bin/activate  # Linux/Mac
+    venv\Scripts\activate     # Windows
+
+    # Install dependencies
+    pip install -r requirements.txt
+
+    # Setup database
+    mysql -u root -p < database/setup.sql
+
+    # Run application
+    python src/main.py
+    ```
+
 
 ## 📌 Usage
 ### Customer Management
@@ -50,11 +67,6 @@ A desktop application for managing hotel operations built with Python and Tkinte
 - MySQL
 - PIL
 
-## 🤝 Contributing
-1. Fork repository
-2. Create feature branch
-3. Make changes
-4. Submit pull request
 
 ## 📄 License
 MIT License
@@ -64,6 +76,6 @@ MIT License
 - LinkedIn: @sahilthorat
 
 <div align="center">
-<p>Made with ❤️ by Your Name</p>
+<p>Made with ❤️ by Sahil Thorat</p>
 <p>⭐ Star this repository if you found it useful! ⭐</p>
 </div>
